@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1520264816 source:e:\utm i\c programs\utm\second\second\queue.cpp
+	"Queue.hpp"
+	<stdlib.h>
+	<iostream>
+
+1520264966 e:\utm i\c programs\utm\second\second\queue.hpp
+	<cstring>
+	<iostream>
+	<windows.h>
+	<cstdlib>
+
+1520265054 source:e:\utm i\c programs\utm\second\second\main.cpp
+	<windows.h>
+	<iostream>
+	"Queue.hpp"
+
