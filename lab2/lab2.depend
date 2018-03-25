@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1521995961 source:e:\utm i\c programs\utm\lab2\main.cpp
+	<tchar.h>
+	<windows.h>
+	"tools.h"
+	"resources.h"
+	<cstdio>
+	"DBox.h"
+	<cstdlib>
+
+1521912989 e:\utm i\c programs\utm\lab2\tools.h
+	<windows.h>
+	<cstring>
+	<cstdio>
+	<cstdlib>
+	"resources.h"
+
+1521995958 source:e:\utm i\c programs\utm\lab2\tools.cpp
+	"tools.h"
+	"resources.h"
+
+1521911483 e:\utm i\c programs\utm\lab2\resources.h
+
+1521994261 source:e:\utm i\c programs\utm\lab2\dbox.rc
+	"resources.h"
+	"afxres.h"
+
+1521894379 source:e:\utm i\c programs\utm\lab2\dbox.cpp
+	<windows.h>
+	"resources.h"
+
+1521894409 e:\utm i\c programs\utm\lab2\dbox.h
+	<windows.h>
+
