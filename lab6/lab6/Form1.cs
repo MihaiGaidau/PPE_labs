@@ -59,6 +59,8 @@ namespace lab6
                     NameTB.BackColor = Color.Coral;
                 if (SurnameTB.Text == "")
                     SurnameTB.BackColor = Color.Coral;
+//                System.Media.SoundPlayer player = new System.Media.SoundPlayer("SolutionItems/error.wav");
+//                player.Play();
             }
 
 
