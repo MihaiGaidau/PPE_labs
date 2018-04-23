@@ -18,22 +18,24 @@ _Basics of Working with Mouse. GDI Primitives. Bezier Curve._
 - [x] Use mouse as an eraser of:
  - a fixed width (1 pt)
  - a adjustable width (2 pt)
-- [x] Zoom in and out application working area using keyboard (2 pt)
+- [x] Zoom in and out application working area using keyboard (2 pt) (using + or -)
 
 ## Result
 Implemented in C#
 * The colored button on the top opens a Color Picker Dialog, where the user can change the pen color
 * In the width Combo Box you can change the line and eraser width 
-* The shapes combo box, here you can choose what type of shape you want to use, so here you can find rectangle, line, ellipse, eraser and bezier curve
-(you can draw bezier curve with the mouse, it uses 4 points)
- * And the last combo box is for filling mode, figure can be filled, unfilled or with the gradient
+* A've added buttons to select the object what you want to create
+* You can create rectangle
+ * You can create ellipse
+ * you can create more stright lines, after a point
+ * I've added a color picker with what you can get the color of every ebject from the screen
+ * A combo box for filling mode, figure can be filled, unfilled or with the gradient
  * Clear button used for clearing the screen
  * Save button used for saving your image to a bitmap ;
- * You can zoom in and out by pressing "W" and "S"
+ * You can zoom in and out by pressing "+" or "-"
 #### Total: All mandatory objectives + 10 points (Bonus Objectives)
   
   ## Conclusion
-  In this laboratory work, I learned to draw Bezier curves, to write to a bitmap image, to work with GDI primitives and to use Window Forms. Working with C# instead of C++ saved me a lot of time. Finally I obtained a paint like program, that can be used to paint images, like that illustrated below.
-  ![night](Results/night.bmp)
-  
-  
+  In this laboratory work, I learned to draw Bezier curves, to write to a bitmap image, to work with GDI primitives and to use Window Forms. Also, I've learned how to do some paint tricks. Working with C# instead of C++ saved me a lot of time and I had fun doing this project. 
+  From the begining, I've wanted to do a buttons like in paint, with images, instead of words, but I got some problems with it because the images was rendered in it's original rezolution, and the images wasn's shown.
+In the end, I got a "Paint", that can be used to paint images
